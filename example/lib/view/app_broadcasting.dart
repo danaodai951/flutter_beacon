@@ -159,8 +159,8 @@ class _TabBroadcastingState extends State<TabBroadcasting> {
 
   Widget get buttonBroadcast {
     final ButtonStyle raisedButtonStyle = ElevatedButton.styleFrom(
-      onPrimary: Colors.white,
-      primary: broadcasting ? Colors.red : Theme.of(context).primaryColor,
+      // onPrimary: Colors.white,
+      // primary: broadcasting ? Colors.red : Theme.of(context).primaryColor,
       minimumSize: Size(88, 36),
       padding: EdgeInsets.symmetric(horizontal: 16),
       shape: const RoundedRectangleBorder(
